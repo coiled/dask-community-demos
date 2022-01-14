@@ -1,0 +1,22 @@
+name: dask-community-demos
+channels:
+  - conda-forge
+dependencies:
+ - dask[complete]
+ - dask-ml
+ - numpy
+ - pandas
+ - matplotlib
+ - scikit-learn
+ - seaborn
+ - joblib
+ - ipywidgets
+ - jupyterlab
+ - dask-labextension
+ - python-graphviz
+ - blosc
+ - coiled
+ - xarray
+ - zarr
+ - s3fs
+ - fastparquet
