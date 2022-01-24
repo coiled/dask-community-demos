@@ -20,3 +20,4 @@ dependencies:
  - zarr
  - s3fs
  - fastparquet
+ - lz4
