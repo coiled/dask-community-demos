@@ -1,23 +1,36 @@
 name: dask-community-demos
 channels:
-  - conda-forge
+- conda-forge
 dependencies:
- - dask[complete]
- - dask-ml
- - numpy
- - pandas
- - matplotlib
- - scikit-learn
- - seaborn
- - joblib
- - ipywidgets
- - jupyterlab
- - dask-labextension
- - python-graphviz
- - blosc
- - coiled
- - xarray
- - zarr
- - s3fs
- - fastparquet
- - lz4
+  # Python
+  - python =3.9  # Coiled isn't available for Python 3.10 yet
+  # Dask and related libraries
+  - dask
+  - distributed
+  - coiled >=0.0.74
+  # Other useful libraries
+  - blosc
+  - bokeh
+  - dask-labextension
+  - dask-ml
+  - fastparquet
+  - geopandas
+  - ipympl
+  - ipython
+  - ipywidgets
+  - joblib
+  - jupyter-black
+  - jupyterlab
+  - lz4
+  - matplotlib
+  - numpy
+  - pandas
+  - pyarrow
+  - python-graphviz
+  - python-snappy
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - xarray
+  - zarr
